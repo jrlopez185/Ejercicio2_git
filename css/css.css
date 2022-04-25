@@ -1,0 +1,163 @@
+/* Configuraciones*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+
+    /*
+    *TAMAÑO ESTABLECIDO PARA UTILIZAR
+    *LAS UNIDADES REM
+    */font-size:10px; /*TAMAÑO GENERAL*/
+
+    /*
+    *TIPOGRAFIA ESTABLECIDA
+    */
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+
+    /*COLORES ESTABLECIDOS*/
+    --colorTextClaro: rgba(60, 60, 67, 0.6);
+    --colorBlack:     #000000;
+    --colorBakcground:#F2F2F7;
+    --colorBlue:      #007AFF;
+
+
+    /*TAMAÑO DE LETRA GENERAL*/
+    --size17: 17px;
+    --size15: 15px;
+}
+
+/* configuracion de css */
+.login{
+    width:37.90rem;
+    height:76.10rem;
+    margin:auto;
+
+    background-color:white;
+}
+
+.close{
+    margin-bottom:5rem;
+    margin-left:1rem;
+    Position:relative;
+    z-index: 3;
+    background-color:white;
+ 
+}
+
+.close span{
+    font-size:var(--size17);
+    font-weight: 400;
+    color:var(--colorTextClaro);
+    Position:relative;
+    z-index: 3;
+
+    margin-left:1rem;
+}
+
+.title{
+    margin-top:7rem;
+    margin-left:1rem;
+    Position:relative;
+    z-index: 3;
+    margin-left:1rem;
+    background-color:white;
+    
+}
+
+.title h3{
+    font-size:2rem;
+    font-weight: 800;
+    color:var(--colorBlack);
+    Position:relative;
+    z-index: 3;
+    margin-left:1rem;
+}
+
+.title h2{
+    font-size:4.5rem;
+    font-weight: 800;
+    color:var(--colorBlack);
+    Position:relative;
+    z-index: 3;
+    margin-left:1rem;
+}
+
+
+.fondo{
+    position:absolute;
+    padding-top:7rem;
+    z-index:1;
+    margin:auto;
+    margin-left:1rem;
+}
+
+/* confi*/
+.formulario{
+
+    display:flex;
+    flex-direction:column;
+
+    width:37.30rem;
+
+    margin:auto;
+    position:absolute;
+    z-index:3;
+
+    margin-top:5rem;
+    background-color:white;
+}
+
+.formulario label{
+    font-size:var(--size15);
+    color: rgba(60, 60, 67, 0.721);
+    font-weight: 400;
+
+    margin-top:6rem;
+    margin-left:1rem;
+
+}
+
+#vuelo {
+    background: #F2F2F7;
+    border:0;
+    border-radius:8px;
+    outline-style: none;
+    margin-top:1.6rem;
+
+    font-size: 1.7rem;
+    padding: 1.1rem 1.6rem;
+    font-size:var(--size17);
+    margin-left:1rem;
+  
+
+}
+
+#boton {
+    Background-color:var(--colorBlue);
+    height:4.4rem;
+    color:#ffffff;
+    border:0;
+    border-radius:8px;
+    margin-top:1.6rem;
+
+    font-size:var(--size17);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    margin-left:1rem;
+
+  
+ 
+}
+
+button img{
+    margin-left:1rem;
+    
+}
